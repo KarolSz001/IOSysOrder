@@ -2,15 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="repo" />
-        <module name="exception" />
         <module name="service" />
         <module name="model" />
+        <module name="repo" />
         <module name="tests" />
+        <module name="exception" />
         <module name="main" />
       </profile>
     </annotationProcessing>
